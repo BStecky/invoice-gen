@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: white;
+}
+
+li {
+  font-size: 30px;
+  margin-left: 30px;
+  padding: 0px 0px 40px 0px;
+  list-style: none;
+  margin-top: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: white;
+  transition-duration: 0.2s;
+}
+
+button:active {
+  transform: translateY(4px);
+  transition-duration: 0.1s;
+}
+
+/* classes */
+
+.top-box {
+  background: rgb(26, 30, 87);
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.bottom-box {
+  background: rgb(24, 23, 23);
+  width: 800px;
+  margin: auto;
+  margin-top: 0;
+  padding-top: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.button-box {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.task-btn {
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.603);
+  border: none;
+  font-size: 22px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: rgb(32, 29, 34);
+}
+
+/* Alligning the task and total headers with an older method using inline block */
+.task {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.total {
+  display: inline-block;
+  margin-left: 550px;
+}
+
+/* Also displaying the total amount with the inline-block method */
+.total-amnt {
+  display: inline-block;
+  margin-left: 450px;
+  margin-bottom: 0px;
+}
+
+.border-styling {
+  border-bottom: 5px rgba(255, 255, 255, 0.561) solid;
+  margin: 0px 70px;
+  padding-top: 30px;
+}
+
+.final-amnt {
+  text-align: right;
+  margin-right: 70px;
+  padding-top: 0px;
+}
+
+.invoice-btn-container {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 150px;
+}
+
+.invoice-btn {
+  font-size: 30px;
+  padding: 15px 200px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.561);
+  color: rgb(32, 29, 34);
+}
+
+/* used display flex newer method to display the list items and price */
+
+#note-paragraph {
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: white;
+  margin-left: 70px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  margin-right: 70px;
+  margin-top: 0px;
+  font-size: 30px;
+}

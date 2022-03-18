@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invoice Creator</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0cb824a250.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <!-- the top box containing title and greeting -->
+                <div class="top-box">
+                    <h1>Invoice Creator</h1>
+                    <p>We appreciate your business!</p>
+                </div>
+                <!-- the bottom box containing the meat and potatoes of the program -->
+                <div class="bottom-box">
+                    <!-- container to hold the various buttons -->
+                    <div class="button-box">
+                        <button class="task-btn" id="wash-car">Wash Car: $10</button>
+                        <button class="task-btn" id="mow-lawn">Mow Lawn: $20</button>
+                        <button class="task-btn" id="pull-weeds">Pull Weeds: $30</button>
+                    </div>
+                    <!-- container to hold the listing of items -->
+                    <div class="form">
+                        <h3 class="task">TASK</h3>
+                        <h3 class="total">TOTAL</h3>
+                            <!-- list item to be modified with Javascript -->
+                            <ul id="list"></ul>
+                        <div class="border-styling"></div>
+                        <h3 class="task">NOTES</h3>
+                        <h3 class="total-amnt">TOTAL AMOUNT</h3> 
+                        <div class="list-container">
+                            <p id="note-paragraph">We accept cash, credit, or Paypal.</p>
+                            <!-- dollar amount to be modified with javascript -->
+                            <h1 class="final-amnt" id="final-amnt">$0</h1> 
+                        </div>
+
+                    </div>
+                    <!-- container and button to "send" the invoice -->
+                    <div class="invoice-btn-container">
+                        <button class="invoice-btn" id="invoice-btn"><i class="fa-solid fa-envelope"></i> Send Invoice</button>
+                    </div>
+                </div>     
+            </div>
+            <script src="index.js"></script>
+        </main>
+    </body>
+</html>
